@@ -83,7 +83,7 @@ body {
 }
 
 /* styling to the six different sections */
-#aboutme, #Mission, #skills, #Education, #gallery, #Contact {
+#time, #aboutme, #Mission, #Skills, #Education, #Gallery, #Contact {
   font-size: 20px;
   text-align: justify;
   margin: 0 20px 20px;      /* margin: top(0) right/left(20) bottom(20) */
@@ -184,4 +184,28 @@ footer {
         display: flex;
         justify-content: center;  
     }
+}
+.time-boxes {
+  display: grid;  
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+#time{
+  /* display: flex; */
+  /* width: 100%; */      /* Make this element as wide as its parent container which is <body> here*/
+  max-width: 1000px;      /* container reform to the box */
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 3px solid #000;
+  border-radius: 10px;
+  background-color: var(--secondary);
+  color: #000000;
+}
+.compare{
+  text-align: center;
+  margin-top: 30px;
+}
+#comparison {
+    font-size: 28px;        
 }
