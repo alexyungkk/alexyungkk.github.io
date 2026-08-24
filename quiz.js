@@ -18,7 +18,7 @@ const questions = [
         ]
     },
     {
-        question: "How many sons do I have?",
+        question: "How many son(s) do I have?",
         answers: [
             {text: "One", correct: false},
             {text: "Two", correct: true},
