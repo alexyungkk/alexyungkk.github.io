@@ -9,16 +9,16 @@ const questions = [
         ]
     },
     {
-        question: "Which programm am I studying?",
+        question: "Which program am I studying?",
         answers: [
             {text: "IT Data Analytics", correct: false},
-            {text: "IT Gerneralist", correct: false},
+            {text: "IT Generalist", correct: false},
             {text: "IT Programming", correct: true},
             {text: "IT Web Programming", correct: false},
         ]
     },
     {
-        question: "How many sons do I have?",
+        question: "How many son(s) do I have?",
         answers: [
             {text: "One", correct: false},
             {text: "Two", correct: true},
