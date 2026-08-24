@@ -15,13 +15,19 @@ setInterval(()=>{
 
     if (userDate > myDate) {
         console.log("faster");
-        comparison.innerHTML = "Your Time is " + different + " hrs ahead!";
+        comparison.innerHTML = "Your Time is " + different + " hr(s) ahead!";
     } else if (userDate < myDate) {
         console.log("slower");
-        comparison.innerHTML = "Your Time is " + different + " hrs behind!";
+        comparison.innerHTML = "Your Time is " + different + " hr(s) behind!";
     } else {
         console.log("Same")
         comparison.innerHTML = "We are in the same timezone.";
     }
 
 }, 1000);
+
+
+
+
+
+
